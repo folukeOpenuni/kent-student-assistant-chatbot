@@ -1,4 +1,5 @@
 import streamlit as st
+from config import OPENAI_API_KEY
 from prompts import query_llm
 
 WELCOME_MESSAGE = "Hi! I am your Kent Student Assistant. Ask me anything."
@@ -33,6 +34,18 @@ def render_status() -> None:
         st.info("Generating response...")
     if st.session_state.last_error:
         st.error(f"Last error: {st.session_state.last_error}")
+
+
+def ensure_required_config() -> None:
+    """Show a clear setup message for missing required secrets."""
+    if OPENAI_API_KEY:
+        return
+
+    st.error("Missing configuration: `OPENAI_API_KEY` is not set.")
+    st.markdown(
+        "Set `OPENAI_API_KEY` in Streamlit Cloud app secrets "
+    )
+    st.stop()
 
 
 def reset_chat() -> None:
@@ -98,6 +111,7 @@ def main() -> None:
     st.set_page_config(page_title="Kent Student Assistant", page_icon="🎓")
     st.title("🎓 Kent Student Assistant")
     st.caption("University of Kent student assistant chatbot")
+    ensure_required_config()
     style_chat_input()
 
     init_session()

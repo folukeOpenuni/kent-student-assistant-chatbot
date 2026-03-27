@@ -1,8 +1,12 @@
+import logging
+
 import chromadb
+from chromadb.errors import NotFoundError
 from config import CHROMA_COLLECTION_NAME, CHROMA_PATH, OPENAI_API_KEY
 from openai import OpenAI
 
 EMBEDDING_MODEL = "text-embedding-3-small"
+logger = logging.getLogger(__name__)
 
 
 class KnowledgeRetriever:
@@ -22,8 +26,19 @@ class KnowledgeRetriever:
         self.embedding_model = embedding_model
 
     def get_chroma_collection(self):
-        """Return the indexed collection from disk. Run ingest first if missing."""
+        """Return collection; auto-ingest on first run if missing."""
         client = chromadb.PersistentClient(path=self.chroma_path)
+        try:
+            return client.get_collection(name=self.collection_name)
+        except NotFoundError:
+            logger.info(
+                "Chroma collection %r not found at %s. Running ingest now.",
+                self.collection_name,
+                self.chroma_path,
+            )
+            from ingest import ingest
+
+            ingest()
         return client.get_collection(name=self.collection_name)
 
     def embed_query(self, text: str) -> list[float]:

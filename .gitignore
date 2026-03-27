@@ -1,0 +1,49 @@
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments / local Python version
+.venv/
+venv/
+env/
+.envrc
+.python-version
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+.hypothesis/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test / coverage outputs
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Logs
+*.log
+
+# Local ChromaDB data
+chroma/

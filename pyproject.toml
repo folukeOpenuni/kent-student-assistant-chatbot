@@ -1,0 +1,47 @@
+[project]
+name = "kent-student-assistant-chatbot"
+version = "0.1.0"
+description = "AI-powered student support chatbot using Streamlit, ChromaDB, and OpenAI."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.5",
+    "openai>=2.29.0",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.55.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "ruff>=0.15.7",
+]
+
+[tool.ruff]
+line-length = 120
+indent-width = 4
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "I",   # import sorting
+    "B",   # bugbear
+    "C4",  # Catch incorrect use of comprehensions, dict, list, etc
+]
+
+ignore = [
+    "E501",  # ignore long line warnings (optional)
+]
+
+# Ruff formatter (replaces Black)
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[tool.ruff.lint.isort]
+known-first-party = ["app"]
+combine-as-imports = true
+

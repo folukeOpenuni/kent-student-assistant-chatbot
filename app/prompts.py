@@ -1,6 +1,6 @@
 from config import OPENAI_API_KEY
 from openai import OpenAI
-from retrieval import retriever
+from retrieval import KnowledgeRetriever
 
 CHAT_MODEL = "gpt-4.1-mini"
 
@@ -24,10 +24,10 @@ PROMPT_TEMPLATE = """
     - Then signpost to the most relevant university team.
 
     3) Response format
-    Always structure the answer in this order:
-    - Answer: concise response to the user's question.
-    - What to do next: clear action(s) the student can take.
-    - Source: cite the supporting context section(s).
+    - Start with a concise response to the user's question.
+    - Include "What to do next:" only when clear, practical next actions are needed.
+    - If no action is needed (for example a simple factual question), omit "What to do next:".
+    - End with "Source:" and cite the supporting context section(s).
 
     4) Clarify when needed
     - Ask one short clarifying question when the query is ambiguous.
@@ -59,6 +59,7 @@ PROMPT_TEMPLATE = """
 """
 
 client = OpenAI(api_key=OPENAI_API_KEY)
+knowledge_retriever = KnowledgeRetriever()
 
 
 def query_llm(question: str) -> str:
@@ -67,7 +68,7 @@ def query_llm(question: str) -> str:
     if not user_question:
         raise ValueError("Question must be non-empty.")
 
-    chunks = retriever(user_question, n_results=3)
+    chunks = knowledge_retriever.retrieve(user_question, n_results=3)
 
     if not chunks:
         return (
@@ -101,8 +102,3 @@ def query_llm(question: str) -> str:
         temperature=0,
     )
     return (response.choices[0].message.content or "").strip()
-
-
-# question = "tell me about university of kent's admission"
-# res = query_llm(question)
-# print(res)

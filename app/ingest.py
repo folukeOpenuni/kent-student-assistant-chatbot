@@ -48,38 +48,16 @@ def chunk_by_sections(text):
         section_name = heading.removeprefix("##").strip()
         chunks.append({"section": section_name, "content": f"{heading}\n\n{content}"})
 
-
     if not chunks and text.strip():
         chunks.append({"section": "Document", "content": text.strip()})
 
     return chunks
 
-def chunk_by_sections_test(text):
-    pattern = r"(##\s+\d+\.\s+[A-Za-z ]+)"
-    parts = re.split(pattern, text)
-
-    chunks = []
-    for i in range(1, len(parts), 2):
-        heading = parts[i].strip()
-        content = parts[i+1].strip()
-        section_name = heading.replace("##", "").strip()
-
-        chunks.append({
-            "section": section_name,
-            "content": heading + "\n" + content
-        })
-
-    return chunks
-
 
 def embed_text(texts):
-    response = client.embeddings.create(
-        model="text-embedding-3-small",
-        input=texts
-    )
+    response = client.embeddings.create(model="text-embedding-3-small", input=texts)
 
     return [item.embedding for item in response.data]
-
 
 
 def build_chroma(chunks, collection_name=CHROMA_COLLECTION_NAME):
@@ -131,6 +109,3 @@ def ingest():
     chunks = chunk_by_sections(text)
     logger.info("Split markdown into %s section chunks", len(chunks))
     build_chroma(chunks)
-
-
-

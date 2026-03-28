@@ -55,17 +55,38 @@ University of Kent – Key Information
 
 ## 4. Wellbeing
 
-- **Student Support and Wellbeing (SSW):** This central service provides holistic support for mental health, disability, autism, specific learning differences (including ADHD and dyslexia), and accessibility, as well as advice on academic adjustments. 
-  - Overview: https://www.kent.ac.uk/student-support 
-  - MyKent health & wellbeing: https://student.kent.ac.uk/support/wellbeing 
+- **Student Support and Wellbeing (SSW):** SSW supports access to learning through direct support and referrals to external services. Advisers cover mental health, welfare, financial hardship, disability and neurodiversity, plus specialist support for students reporting harassment, sexual violence and hate incidents.
+  - Overview: https://www.kent.ac.uk/student-support
+  - SSW information hub: https://www.kent.ac.uk/SSW
+  - MyKent health and wellbeing: https://student.kent.ac.uk/support/wellbeing
+  - Email: KentSSW@kent.ac.uk
+  - Phone: 01227 823158
+  - Hours: Monday-Friday, 09:00-17:00 (Canterbury and Medway)
 
-- **Mental health support team:** The Mental Health Team includes Mental Health Advisers and Mentors who can help with stress, anxiety, depression, adjustment to university and relationship issues, and can create Inclusive Learning Plans (ILPs) that set out reasonable adjustments for teaching and assessments.
+- **Find a sense of belonging:** SSW runs community-focused activities including the Wellbeing Cafe, weekly mindfulness sessions, "just coffee", walking buddy matches, support groups, wellbeing events, and online peer support spaces where students can chat with others.
+  - Events and groups: https://www.kent.ac.uk/SSW#events
+  - Instagram updates: @UniKentSSW
 
-- **Counselling and specialist wellbeing:** Counselling offers confidential space to work on thoughts, feelings and behaviours, while specialist wellbeing staff support students around sexual assault/harassment, bullying, discrimination and hate incidents, and also provide tailored support for care‑experienced, caregiving and estranged students.
+- **Expert support and adjustments:** SSW can provide counselling, mental health support, support for disabilities and long-term conditions, neurodivergent support, and accessibility support. Practitioners can create Inclusive Learning Plans (ILPs) with assessment adjustments, enabling equipment, and resource support.
+  - PGR-specific adjustments are available, including support around viva and supervision meeting adjustments.
+  - Outreach support includes care-experienced, estranged, carers, refugee and asylum-seeking students.
 
-- **24/7 support:** All Kent students have access to 24/7 phone, text and WhatsApp support from trained mental‑health professionals through Kent’s partner Spectrum Life, alongside on‑campus support from the University Nursing Service and Campus Security.
+- **Enhance your wellbeing:** SSW runs peer groups and workshops on topics such as stress, anxiety, sleep, and social connection, and can help facilitate new wellbeing initiatives based on student demand.
+  - Wellbeing resources: https://www.kent.ac.uk/wellbeing
 
-- **Student‑led wellbeing initiatives:** Kent has a Wellbeing Student Advisory Board in partnership with Kent Union, bringing student voices into mental‑health strategy; the BBC has highlighted this as an initiative aimed at making support “meaningful and accessible to everyone.”
+- **Inclusive community context:** Kent states a commitment to a welcoming and inclusive culture based on dignity, courtesy, respect, and consideration for all, with confidential support routes for students who feel isolated or unsure.
+
+- **Health services alongside wellbeing support:**
+  - University Nursing Service (Canterbury) for minor ailments/injuries
+  - NHS University Medical Centre (Canterbury): https://www.kent.ac.uk/medical
+  - Health services guidance: https://www.kent.ac.uk/guides/health-services
+  - Medway GP registration info: https://stmarysislandsurgery.co.uk
+
+- **24/7 mental health support channels:** Trained mental health professionals are available via partner services.
+  - Spectrum Life phone: 0800 0318227 (option 1)
+  - Spectrum Life WhatsApp/text: +44 07418 360780 (send "Hi")
+  - Togetherall online peer support: https://www.kent.ac.uk/guides/togetherall
+  - Partner support overview: https://www.kent.ac.uk/SSW#partners
 
 
 ## 5. Finance
@@ -91,6 +112,7 @@ University of Kent – Key Information
 - **Further finance information:**
   - Undergraduate fees and funding: https://www.kent.ac.uk/courses/undergraduate/fees-and-funding
   - Postgraduate fees and funding: https://www.kent.ac.uk/courses/postgraduate/fees-and-funding
+  
 
 
 ## 6. IT Support
@@ -141,3 +163,38 @@ University of Kent – Key Information
 - **Online portals:**
   - **MyKent** (student portal): main gateway to study information, support services, term dates and digital services (linked across multiple pages).
   - **TARGETconnect:** system used for careers and employability bookings and resources.
+
+
+## 9. Postgraduate Research (PGR)
+
+- **Supervision expectations:** PGR students are assigned a supervisory team (more than one supervisor). Supervisory discussions should be formally recorded at least every 4 weeks for full-time students and every 8 weeks for part-time students, usually via KentVision.
+
+- **Meeting record timelines:** Students are expected to complete meeting reports within one week of a supervision meeting, and supervisors are expected to provide written feedback within two weeks.
+
+- **Progression monitoring milestones:** Kent uses staged reviews to track progress (for example: induction, probation, end-of-year and end-of-minimum-period reviews), with timing differing by programme and full-time/part-time status.
+
+- **Thesis submission process:** Research degree candidates should submit a Notice of Submission at least two months before submitting their thesis for examination (via KentVision), then complete viva and final electronic thesis deposit to the Kent Academic Repository (KAR).
+
+- **PGR development and employability support:** The Graduate and Researcher College (GRC) runs a wide Researcher Development Programme (200+ workshops), plus opportunities such as mentoring, research cafés and 3MT-style presentation activities.
+
+- **PGR-specific wellbeing and adjustments:** Student Support and Wellbeing can provide support for mental health, disability, neurodiversity and hardship, including Inclusive Learning Plans and adjustments tailored to PGR needs (including viva/meeting adjustments).
+
+- **Useful PGR links:**
+  - PGR handbook (source summary): `data/kentUni-handbook.pdf`
+  - Researcher Development Programme: https://student.kent.ac.uk/studies/researcher-development-programme
+  - PGR KentVision support: https://student.kent.ac.uk/support/kentvision/pgr
+  - Thesis deposit (KAR): https://www.kent.ac.uk/guides/deposit-your-thesis
+  - SSW support: https://www.kent.ac.uk/student-support
+
+- **Further PGR policies and support links:**
+  - Code of Practice for Research Courses: https://www.kent.ac.uk/education/regulatory-framework/codes-of-practice-for-research-courses
+  - Research degree examination guidance (viva/thesis): https://www.kent.ac.uk/education/regulatory-framework/policies-and-procedures-examinations-guidance/examination-guidance#examining-pgr
+  - Academic Regulations for Research Courses: https://www.kent.ac.uk/education/regulatory-framework/academic-regulations-for-research-courses
+  - Student complaints guidance: https://www.kent.ac.uk/guides/student-complaints
+  - Academic appeals (including PGR route): https://www.kent.ac.uk/education/academic-appeals
+  - Academic integrity guide: https://www.kent.ac.uk/education/academic-integrity/guide-for-students
+  - Student wellbeing resources: https://www.kent.ac.uk/wellbeing
+  - Togetherall (24/7 online peer support): https://www.kent.ac.uk/guides/togetherall
+  - Library postgraduate guide: https://student.kent.ac.uk/studies/library/postgraduate-guide
+  - PhD mentoring scheme: https://student.kent.ac.uk/studies/phd-mentoring-scheme
+  - Uni Kent Careers Hub: https://www.kent.ac.uk/careers/uni-kent-careers-hub

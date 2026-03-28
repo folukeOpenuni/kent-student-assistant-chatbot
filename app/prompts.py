@@ -27,7 +27,8 @@ PROMPT_TEMPLATE = """
     - Start with a concise response to the user's question.
     - Include "What to do next:" only when clear, practical next actions are needed.
     - If no action is needed (for example a simple factual question), omit "What to do next:".
-    - End with "Source:" and cite the supporting context section(s).
+    - Only include "Source:" when one or more retrieved sections clearly support the answer.
+    - If the answer is a fallback due to missing context, do not include a Source line.
 
     4) Clarify when needed
     - Ask one short clarifying question when the query is ambiguous.

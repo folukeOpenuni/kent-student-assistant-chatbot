@@ -50,3 +50,55 @@ Optional environment variables:
 - `CHROMA_PATH` (default: `./chroma`)
 - `CHROMA_COLLECTION_NAME` (default: `kent_university_docs`)
 - `INGEST_DATA_PATH` (default: `./data/kent-university.md`)
+
+## Demo Test Questions
+
+Here are 10 ready-made questions you can ask the chatbot to test functionality against the project brief:
+
+1. **Admissions & Enrollment**  
+   "I've just received an offer to study Computer Science. What are the next steps to confirm my place?"
+
+2. **Assessment & Deadlines**  
+   "When is the deadline to withdraw from a module without it affecting my final grade?"
+
+3. **Wellbeing Support**  
+   "I've been feeling really overwhelmed lately. Who can I speak to for mental health support on campus?"
+
+4. **General Enquiries**  
+   "I've lost my student ID card. How do I get a replacement and is there a temporary one I can use?"
+
+5. **Technical Support**  
+   "I can't log into the Virtual Learning Environment (VLE). It says my password is incorrect even after resetting it."
+
+6. **International Student Support**  
+   "As an international student, what documents do I need to provide to prove my right to study for the next semester?"
+
+7. **Financial & Fees**  
+   "I'm worried I won't be able to pay my tuition fees by the installment deadline. What options do I have?"
+
+8. **Procedural (Redirection)**  
+   "How do I apply for extenuating circumstances for an exam I missed last week?"
+
+9. **Career & Progression**  
+   "I'm unsure which optional modules to pick for next year to qualify for a placement year. Can someone advise me?"
+
+10. **Critical Scenario**  
+    "I am having a technical issue with the chatbot itself and cannot find the contact details for the IT service desk."
+
+## Known Limitations + Next Steps
+
+Current limitations:
+
+- No live University API integration yet (knowledge is sourced from local, curated documents).
+- Basic retrieval and reranking strategy (top-k vector search only, without advanced hybrid reranking).
+- Single-turn memory (conversation context is not persisted across longer multi-turn sessions).
+- Limited source coverage (currently focused on selected Kent guidance documents).
+- No built-in evaluation dashboard for tracking answer quality over time.
+
+Planned next steps:
+
+- Add live integrations for key university services where APIs are available.
+- Improve retrieval quality with hybrid search and stronger reranking pipelines.
+- Introduce lightweight conversational memory with clear guardrails.
+- Expand and version the knowledge base with scheduled re-indexing.
+- Add automated evals (groundedness, citation quality, and helpfulness) before deployment.

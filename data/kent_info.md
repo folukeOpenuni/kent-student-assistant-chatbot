@@ -1,84 +1,59 @@
 ## 1. University overview
+
 The University of Kent is a public research university based mainly in Canterbury, Kent, England, with additional campuses such as Medway. 
 It is known for its strong research profile, international outlook, and a broad range of subjects across humanities, social sciences, business, law, computing, and the sciences.
 Kent attracts a diverse, international student body and emphasises combining academic theory with practical, career‑oriented learning.
 
 ### 1.1 Campuses and location
+
 Kent’s primary campus is located in Canterbury, a historic city in southeast England, with good transport links to London and continental Europe.  
 The university also has a presence at Medway and some specialist centres, offering different subject mixes and partnerships.
 
 ### 1.2 Academic profile
-Kent offers undergraduate and postgraduate programmes in areas such as law, politics, business, computing, psychology, social sciences, creative arts, and more. 
+
+Kent offers undergraduate and postgraduate programmes in areas such as law, politics, business, computing, psychology, social sciences, creative arts, and more.  
 It has a reputation for high‑quality teaching, research impact, and an international perspective in rankings and surveys.
 
+## Student Support and Wellbeing - extract from postgrad handbook 2025/26
 
-## 2. Admissions – high‑level overview
-This section is for general context only; students should always check official Kent pages for up‑to‑date details.
+Student Support and Wellbeing are committed to improving access to learning and provide a wide range of support services and referrals to external support services to help support your student journey.
+Find a sense of belonging
+Supporting mental health and wellbeing is at the heart of what we do. This starts with getting to know your university and the people in it to help you to create your own network of friends and comfortable spaces.
+We facilitate lots of opportunities to meet people. We run a Wellbeing Café, weekly mindfulness sessions and you can sign up for ‘just coffee’ and ‘walking buddy’ to pair up with someone new for a study break and companionship. We also run support groups and wellbeing events throughout the year, as well as online support where students can chat to other students.
+Find out more at kent.ac.uk/SSW#events or follow us @ UniKentSSW on Instagram for information on events, groups, and wellbeing resources.
 
-### 2.1 Selectivity and scale
-External profiles describe Kent as a public research university with a moderate level of admissions selectivity (acceptance rates in the ~40–45% range in some reports).  
-The university teaches many thousands of students across a wide range of programmes, with a sizeable international cohort.
+Expert support
+Our professional practitioners work with students individually to understand their requirements, and to develop strategies including Inclusive Learning Plans (ILPs), which make the support students need clear to their academic school.
+We have advisers that specialise in mental health, welfare, financial hardship, disability and neurodiversity, outreach students (care experienced, estrangement, carers, refuges, asylum seekers) and specialist wellbeing advisers who support student reporting harassment sexual violence and hate incidents.
+We can provide counselling, mental health support, support with disabilities and long-term health conditions, support for neurodivergent students, and help making information accessible.
+As well as providing short term focused interventions and supporting you to develop coping strategies, our specialist practitioners can liaise with your academic School to develop an Inclusive Learning Plan which may include assessment adjustments, use of enabling equipment or provision of resources to help you learn in a way that works for you. We also have adjustments that are specifically designed for PGR students around VIVA and meeting adjustments.
+Find out more about seeking support at kent.ac.uk/SSW
+Do you have a specific query that you'd like to ask via phone or email?
+SSW reception is open Monday – Friday, 09:00-17:00
+Canterbury and Medway
+E: [KentSSW@kent.ac.uk](mailto:KentSSW@kent.ac.uk)
+T: 01227 823158
 
-### 2.2 Typical application elements
-External admissions guides list common elements for applications such as: an application form, academic transcripts, proof of degree (for postgraduate), personal statement, references, and proof of English language proficiency for non‑native speakers.  
-Exact requirements, deadlines, and processes vary by course and level of study and must be checked on official University of Kent course and admissions pages.
+Enhance your wellbeing
+We have lots of peer support groups and interesting workshops available to students on various topics such as managing stress and anxiety, improving sleep, or finding friends. Our groups and workshops are organised according to student demand each year, so if students have an interest in setting up a new initiative around disability or mental health, we can facilitate finding like minded students and necessary resources. Have a look at our Events calendar for what's coming up at kent.ac.uk/student-support
+#UniKentWellbeing
+At Kent we aim to build a supportive community environment and we are committed to helping you get the most out of the challenges and opportunities university study brings. Even if you don't feel you need professional support from Student Support and Wellbeing, there are lots of resources available to help you stay well during postgraduate study.
+Our #UniKentWellbeing page is updated regularly with relevant, timely information and resources: kent.ac.uk/wellbeing
+Diversity
+The University of Kent proudly endeavours to co-create a welcoming diverse and inclusive community. We are committed to a working and learning culture that encompasses dignity, courtesy, respect, and consideration for all. There are several support avenues at the University to help you if you are confused, looking for friends or just want someone to talk to in complete confidence.
 
-### 2.3 Costs and funding (high‑level)
-External aggregators note that tuition fees roughly follow the UK pattern, with home undergraduate fees up to around £9,250 per year and higher fees for international students depending on programme.  
-Students should always rely on Kent’s official fee and funding pages for current figures, scholarships, and bursaries.
-
-
-## 3. Student support and wellbeing
-### 3.1 Student Support and Wellbeing (SSW)
-Student Support and Wellbeing provides specialist support for mental health, disability, autism, specific learning differences, and general wellbeing. 
-Services typically include things like mental health advisers, counselling or therapeutic support, and practical adjustments, depending on individual needs.
-
-### 3.2 Health and wellbeing information
-My Kent’s “Health and wellbeing” section describes support for mental health, physical health, self‑help resources, and how to look after wellbeing during studies. 
-It signposts workshops, resources, and ways to book appointments or reach out for help.
-### 3.3 Seeking support from SSW
-
-The “Seeking support from Student Support and Wellbeing” page explains how students can register with SSW, what information is needed, and what to expect from initial contact or appointments.  
-It also clarifies that support is confidential within certain limits and how SSW works alongside academic schools and other services.
-
-### 3.4 Self‑help resources
-The self‑help resource list on My Kent brings together online tools, national services, and topic‑based resources that students can explore independently.  
-It covers areas such as mental health, academic skills, and wellbeing, and may include links to external organisations.
-
-
-## 4. Urgent and out‑of‑hours support
-The “Getting support now” page explains what students should do if they or someone else needs urgent help, including mental health crises or immediate safety concerns.   
-It signposts options such as emergency services, NHS support, out‑of‑hours helplines, and any 24/7 support services that Kent promotes to its students.
-My Kent and wellbeing pages emphasise that students do not have to wait for office hours to seek help in a crisis and provide practical steps and contact details.
-
-## 5. General student support and services
-
-### 5.1 Student support hub (My Kent)
-
-The “Student support” entry point on My Kent acts as a hub linking to wellbeing, disability, money, housing, academic, and other practical support. 
-It also highlights support available for specific groups such as international students, care‑experienced students, and others.
-### 5.2 Kent Union and independent advice
-
-Student news and support‑at‑Kent articles highlight Kent Union’s Advice Centre as a source of free, impartial advice on issues such as money, housing, and academic concerns. 
-Kent Union also runs events and activities that contribute to students’ sense of community and engagement.
-### 5.3 Careers and employability
-
-External profiles note that Kent offers careers and employability services, including advice, workshops, employer events, and support with placements, volunteering, and internships.  
-These services help students build skills, experience, and confidence for the job market during and after their studies.
-
-
-## 6. Contacts and general enquiries
-The university’s “Contact us” page provides central contact details for general enquiries, including key phone numbers and web forms. 
-From there, students and applicants can navigate to school‑level or service‑specific contact pages (e.g., Business School, English, Social Sciences) for more targeted queries.
-Kent also signposts various specialist contacts for services like student support, international queries, and media or research enquiries through its contact pages.
-
-## 7. Student life and campus experience
-External overviews describe Kent as offering a wide range of clubs, societies, sports, and cultural activities that contribute to a vibrant campus community.  
-They also highlight facilities such as libraries, labs, and learning spaces that support both academic work and social life.
-
-Student‑facing communications emphasise events, student news, and opportunities to get involved, helping new and current students find their place in the community.
-
-## 8. Notes and limitations
-
-This document is a high‑level synthesis of public information about the University of Kent from official and reputable external sources.  
-For any decisions about applications, fees, policies, or support, students must refer directly to official University of Kent web pages and communications.
+Canterbury
+The University Medical Centre is an NHS general practice based on the Canterbury campus. Students who live within a six-mile radius may register with the University Medical Centre. Appointments can be booked by telephone or in person. For further information on NHS services please see information on national support: kent.ac.uk/guides/health-services
+For information about the University Medical Centre please go to: kent.ac.uk/medical
+Medway
+Students are advised to register at St Mary's Island Surgery. For more details visit stmarysslandsurgery.co.uk
+24/7 support from partner organisations
+Student Support and Wellbeing works with partner organisations to offer 24/7 phone, text, and online support from mental health professionals.
+Phone/text support from Spectrum Life
+Our partner organisation Spectrum Life can offer you online, text and telephone support from qualified counsellors and mental health professionals.
+Call 0800 0318227 – press option 1.
+Text/WhatsApp 'Hi' to +44 07418 360780
+Online Peer Support via Togetherall
+Access free, 24/7 online mental health and wellbeing support via partner organisation Togetherall:
+kent.ac.uk/guides/togetherall
+For more information, visit kent.ac.uk/SSW#partners

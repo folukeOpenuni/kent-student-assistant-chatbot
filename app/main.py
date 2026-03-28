@@ -2,7 +2,12 @@ import streamlit as st
 from config import OPENAI_API_KEY
 from prompts import query_llm
 
-WELCOME_MESSAGE = "Hi! I am your Kent Student Assistant. Ask me anything."
+WELCOME_MESSAGE = "Hi! I am a prototype AI student support assistant for the University of Kent. Please ask me student-related questions (admissions, assessments, deadlines, wellbeing, general student enquiries)"
+MAX_QUESTION_CHARS = 800
+NOTE = """This is a prototype AI assistant for student support queries 
+(admissions, assessments, deadlines, wellbeing). It is not a general-purpose assistant or 
+official advice service. See the [official Contact page](https://www.kent.ac.uk/contact).
+ """
 
 
 def init_session() -> None:
@@ -42,9 +47,7 @@ def ensure_required_config() -> None:
         return
 
     st.error("Missing configuration: `OPENAI_API_KEY` is not set.")
-    st.markdown(
-        "Set `OPENAI_API_KEY` in Streamlit Cloud app secrets "
-    )
+    st.markdown("Set `OPENAI_API_KEY` in Streamlit Cloud app secrets ")
     st.stop()
 
 
@@ -77,7 +80,7 @@ def style_chat_input() -> None:
 
 
 def chat_input_area() -> str | None:
-    return st.chat_input("Type your message here...")
+    return st.chat_input("Type your question here...")
 
 
 def handle_user_input(user_text: str | None) -> None:
@@ -87,6 +90,17 @@ def handle_user_input(user_text: str | None) -> None:
     clean_text = user_text.strip()
     st.session_state.last_error = None
     st.session_state.messages.append({"role": "user", "content": clean_text})
+
+    if len(clean_text) > MAX_QUESTION_CHARS:
+        st.session_state.messages.append(
+            {
+                "role": "assistant",
+                "content": (f"Please keep your question under {MAX_QUESTION_CHARS} characters."),
+            }
+        )
+        st.rerun()
+        return
+
     st.session_state.is_generating = True
 
     try:
@@ -109,8 +123,9 @@ def handle_user_input(user_text: str | None) -> None:
 
 def main() -> None:
     st.set_page_config(page_title="Kent Student Assistant", page_icon="🎓")
-    st.title("🎓 Kent Student Assistant")
-    st.caption("University of Kent student assistant chatbot")
+    st.title("🎓 Kent Student Support Assistant")
+    st.caption(NOTE)
+
     ensure_required_config()
     style_chat_input()
 

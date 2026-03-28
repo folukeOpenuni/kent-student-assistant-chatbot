@@ -58,32 +58,26 @@ Here are 10 ready-made questions you can ask the chatbot to test functionality a
 1. **Admissions & Enrollment**  
    "I've just received an offer to study Computer Science. What are the next steps to confirm my place?"
 
-2. **Assessment & Deadlines**  
-   "When is the deadline to withdraw from a module without it affecting my final grade?"
-
-3. **Wellbeing Support**  
+2. **Wellbeing Support**  
    "I've been feeling really overwhelmed lately. Who can I speak to for mental health support on campus?"
 
-4. **General Enquiries**  
+3. **General Enquiries**  
    "I've lost my student ID card. How do I get a replacement and is there a temporary one I can use?"
 
-5. **Technical Support**  
+4. **Technical Support**  
    "I can't log into the Virtual Learning Environment (VLE). It says my password is incorrect even after resetting it."
+   "How do I contact Kent’s IT Helpdesk if I can’t access my student account?"
 
-6. **International Student Support**  
+5. **International Student Support**  
    "As an international student, what documents do I need to provide to prove my right to study for the next semester?"
 
-7. **Financial & Fees**  
+6. **Financial & Fees**  
    "I'm worried I won't be able to pay my tuition fees by the installment deadline. What options do I have?"
 
-8. **Procedural (Redirection)**  
-   "How do I apply for extenuating circumstances for an exam I missed last week?"
-
-9. **Career & Progression**  
-   "I'm unsure which optional modules to pick for next year to qualify for a placement year. Can someone advise me?"
-
-10. **Critical Scenario**  
+7. **Critical Scenario**  
     "I am having a technical issue with the chatbot itself and cannot find the contact details for the IT service desk."
+
+8. "How can an international undergraduate apply to Kent, and when should they use UCAS vs direct application?"
 
 ## Known Limitations + Next Steps
 

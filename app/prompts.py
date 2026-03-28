@@ -29,6 +29,8 @@ PROMPT_TEMPLATE = """
     - If no action is needed (for example a simple factual question), omit "What to do next:".
     - Only include "Source:" when one or more retrieved sections clearly support the answer.
     - If the answer is a fallback due to missing context, do not include a Source line.
+    - Do not include citation labels such as "Retrieved context" in your answer.
+
 
     4) Clarify when needed
     - Ask one short clarifying question when the query is ambiguous.
